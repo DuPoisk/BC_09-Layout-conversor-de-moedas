@@ -1,6 +1,3 @@
-/* https://www.youtube.com/watch?v=NL517HcTKDc&list=PL85ITvJ7FLohAe8-BUtOOJ7xyz089SH4m&index=1
- 50 minutos */
-
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +7,7 @@
 }
 
 :root {
-  font-size: 62.5%; /*faz o font-size padrao do navegador ficar como 1.0rem*/
+  font-size: 62.5%; 
   font-family: 'Inter', sans-serif;
   --text-color: #0f172a;
 }
@@ -51,7 +48,7 @@ section h2 {
 
 .money-wrapper {
   background-color: white;
-  outline: 0.1rem solid #94a394; /*outline a caixa nao move. o boarder, move*/
+  outline: 0.1rem solid #94a394; 
 
   width: 27rem;
   padding: 1.6rem;
@@ -86,7 +83,7 @@ section h2 {
   --bg-hover:#EDE9FE;
   width: 13rem;
 
-  position: absolute; /*absoluto em relação ao money-wrapper*/
+  position: absolute; 
   top: 0;
   right: 0;
 
@@ -152,7 +149,7 @@ ul {
 
   overflow-y: scroll;
 
-  position: relative; /*desbloquear o z-index*/
+  position: relative; 
   z-index: 1;
 }
 
@@ -202,7 +199,7 @@ li{
   padding: 0.4rem 0.8rem;
 }
 
-@media (max-width: 48rem) { /*responsividade*/
+@media (max-width: 48rem) { 
   main{
     padding: 1.6rem;
     gap: 3.2rem;
